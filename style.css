@@ -279,6 +279,10 @@ button > a{
     text-decoration: none;
     color: black;
 }
+.flex-containern > div > a{
+    color: black;
+}
+
 
 
 

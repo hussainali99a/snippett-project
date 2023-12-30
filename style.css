@@ -31,12 +31,13 @@ nav{
 .nitems{
     font-family:cursive;
     font-size: 40px;
+    
 }
 .flex-container2 {
     
     display: flex;
     flex-wrap: nowrap;
-    background-color:white;
+    background-color:#f4f4f4;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
@@ -45,7 +46,7 @@ nav{
 .flex-container3{
     display: flex;
     flex-wrap: nowrap;
-    background-color:white;
+    background-color:#f4f4f4;
     flex-direction: row;
     justify-content:center;
     gap: 20px;
@@ -53,6 +54,7 @@ nav{
 
 .flex-container2 > div{
     background-color:white;
+    direction: column;
     width: 400px;
     height: 300px;
     margin-left: 20px;
@@ -65,7 +67,7 @@ nav{
 
 
 .flex-container3 > div {
-    background-color: white;
+    
     width: 400px;
     height: 300px;
     margin-left: 20px;
@@ -80,14 +82,14 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 30px;
-    
-    
+    justify-content: center;
 }
 .flex-containern > div{
-    margin-left: 20px;
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 20px;
+    width: 30vw;
     text-align: center;
+    
 }
 h2{
     margin-left: 20px;
@@ -272,6 +274,11 @@ body {
     /* Adjustments for smaller screens */
     /* Add more styles as needed */
 }
+button > a{
+    text-decoration: none;
+    color: black;
+}
+
 
 
 
